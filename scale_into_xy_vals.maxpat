@@ -218,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.5, 488.666666269302368, 153.0, 22.0 ],
-					"text" : "scale -1 1 -1. 1. @classic 2"
+					"text" : "scale -1 1 -2. 2. @classic 2"
 				}
 
 			}
