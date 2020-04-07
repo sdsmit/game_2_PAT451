@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 565.0, 726.0, 150.0, 33.0 ],
+					"text" : "make sure to change this to binaural! -------->"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 69.0, 17.0, 150.0, 20.0 ],
+					"text" : "turn on serial data"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 1.0 ],
 					"bgcolor2" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
@@ -56,7 +79,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 480.0, 195.0, 112.0, 109.0 ],
+					"patching_rect" : [ 1165.0, 390.0, 112.0, 109.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 610.0, 224.0, 235.0, 42.0 ],
 					"text" : "SONIC SURFER"
@@ -367,7 +390,7 @@
 					"patching_rect" : [ 798.0, 199.0, 711.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 372.0, 278.333333551883698, 711.0, 31.0 ],
-					"text" : "you scored 46"
+					"text" : "some good..."
 				}
 
 			}
@@ -756,21 +779,21 @@
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
+																	"originallength" : [ 0.0, "ticks" ],
+																	"play" : [ 0 ],
+																	"pitchshift" : [ 1.0 ],
+																	"mode" : [ "basic" ],
+																	"originaltempo" : [ 120.0 ],
+																	"quality" : [ "basic" ],
 																	"basictuning" : [ 440 ],
+																	"formant" : [ 1.0 ],
 																	"pitchcorrection" : [ 0 ],
-																	"originallengthms" : [ 0.0 ],
 																	"followglobaltempo" : [ 0 ],
+																	"slurtime" : [ 0.0 ],
 																	"speed" : [ 1.0 ],
 																	"timestretch" : [ 0 ],
-																	"pitchshift" : [ 1.0 ],
 																	"formantcorrection" : [ 0 ],
-																	"mode" : [ "basic" ],
-																	"play" : [ 0 ],
-																	"formant" : [ 1.0 ],
-																	"originallength" : [ 0.0, "ticks" ],
-																	"quality" : [ "basic" ],
-																	"slurtime" : [ 0.0 ],
-																	"originaltempo" : [ 120.0 ]
+																	"originallengthms" : [ 0.0 ]
 																}
 
 															}
@@ -780,21 +803,21 @@
 																"filekind" : "audiofile",
 																"loop" : 0,
 																"content_state" : 																{
+																	"originallength" : [ 0.0, "ticks" ],
+																	"play" : [ 0 ],
+																	"pitchshift" : [ 1.0 ],
+																	"mode" : [ "basic" ],
+																	"originaltempo" : [ 120.0 ],
+																	"quality" : [ "basic" ],
 																	"basictuning" : [ 440 ],
+																	"formant" : [ 1.0 ],
 																	"pitchcorrection" : [ 0 ],
-																	"originallengthms" : [ 0.0 ],
 																	"followglobaltempo" : [ 0 ],
+																	"slurtime" : [ 0.0 ],
 																	"speed" : [ 1.0 ],
 																	"timestretch" : [ 0 ],
-																	"pitchshift" : [ 1.0 ],
 																	"formantcorrection" : [ 0 ],
-																	"mode" : [ "basic" ],
-																	"play" : [ 0 ],
-																	"formant" : [ 1.0 ],
-																	"originallength" : [ 0.0, "ticks" ],
-																	"quality" : [ "basic" ],
-																	"slurtime" : [ 0.0 ],
-																	"originaltempo" : [ 120.0 ]
+																	"originallengthms" : [ 0.0 ]
 																}
 
 															}
@@ -1926,7 +1949,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 442.0, 406.0, 980.0, 480.0 ],
+						"rect" : [ 153.0, 228.0, 980.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6714,7 +6737,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.0, 175.0, 150.0, 222.0 ],
+					"patching_rect" : [ 1194.0, 370.0, 150.0, 222.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 15,
 					"presentation_rect" : [ 354.0, 211.0, 740.0, 222.0 ],
@@ -7219,13 +7242,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "chromaticScale.txt",
-				"bootpath" : "~/Documents/school_2019-20/winter/PAT_451/game_2_binaural/game_2_PAT451",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "majorScale.txt",
 				"bootpath" : "~/Documents/school_2019-20/winter/PAT_451/game_2_binaural/game_2_PAT451",
 				"patcherrelativepath" : ".",
@@ -7241,6 +7257,13 @@
 			}
 , 			{
 				"name" : "wholeTone.txt",
+				"bootpath" : "~/Documents/school_2019-20/winter/PAT_451/game_2_binaural/game_2_PAT451",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "chromaticScale.txt",
 				"bootpath" : "~/Documents/school_2019-20/winter/PAT_451/game_2_binaural/game_2_PAT451",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
